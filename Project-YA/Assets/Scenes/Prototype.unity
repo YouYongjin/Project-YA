@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 933549028}
   - component: {fileID: 933549027}
   m_Layer: 0
-  m_Name: 9-Sliced
+  m_Name: AttackTest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

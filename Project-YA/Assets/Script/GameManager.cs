@@ -35,13 +35,26 @@ public class GameManager : MonoBehaviour
         timer -= Time.deltaTime;
     }
 
+    // 초당 공격 테스트
     public void FixedAttack()
     {
-        if (timer <= 0f)
+        //if (timer <= 0f)
+        //{
+        //    enemyHP -= 10;
+        //    Debug.Log("공격");
+        //    timer = timer + 1f;
+        //    testOBJ.SetActive(false);
+        //}
+
+        if(timer >= 0.9f)
+        {
+            testOBJ.SetActive(true);
+        }
+        else if(timer <= 0f)
         {
             enemyHP -= 10;
-            timer = 1f;
             Debug.Log("공격");
+            timer = timer + 1f;
             testOBJ.SetActive(false);
         }
     }
