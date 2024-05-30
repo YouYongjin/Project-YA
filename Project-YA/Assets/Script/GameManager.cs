@@ -46,6 +46,18 @@ public class GameManager : MonoBehaviour
         //    testOBJ.SetActive(false);
         //}
 
+        //if (timer <= 0f)
+        //{
+        //    enemyHP -= 10;
+        //    timer = 1f;
+        //    Debug.Log("АјАн");
+        //    testOBJ.SetActive(false);
+        //}
+        //else
+        //{
+        //    testOBJ.SetActive(true);
+        //}
+
         if(timer >= 0.9f)
         {
             testOBJ.SetActive(true);
@@ -58,4 +70,7 @@ public class GameManager : MonoBehaviour
             testOBJ.SetActive(false);
         }
     }
+}
+
+
 }
